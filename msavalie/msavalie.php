@@ -114,7 +114,32 @@ body
       <div class="container col-4"><button type="submit" class="btn btn-primary " name="submit" value="enviar">Enviar</button></div>
 
     </form>
- 
-    
+  
+  <H1 class="container text-center" style="margin-top: 1em; font-size: 2em; color: white;">VEJA O QUE NOSSOS CLIENTES FALAM DE NÓS:</H1>
+
+  <div class="container" style="max-width:774px; min-width:280px; margin-top:30px;">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-inner" style="border-radius:18px;">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="imagens/avaliação-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="imagens/avaliação-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/avaliação-3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
 </body>
 </html>
