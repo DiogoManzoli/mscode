@@ -83,7 +83,11 @@ body
 <nav class="navbar bg-white p-0">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="./imagens/MSavelie-270.png" alt="Logo" class="d-inline-block align-text-top">
+      <picture>
+          <source media="(max-width:400px )" srcset="./imagens/MSavelie-170.png">
+          <source media="(max-width:560px )" srcset="./imagens/MSavelie-220.png">
+          <img src="./imagens/MSavelie-270.png" alt="Logo" class="d-inline-block align-text-top">
+      </picture>
     </a>
   </div>
 </nav>
