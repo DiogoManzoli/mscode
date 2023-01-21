@@ -107,7 +107,7 @@ body
       </div>
 
       <div class="container">
-        <div class="col-5  mx-auto">
+        <div class="mx-auto" style="max-width:420px; min-width:150px;">
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Escreva uma resenha</label>
             <input class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></input>
